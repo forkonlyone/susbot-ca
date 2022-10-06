@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@normalizex/honeypot-is": "^1.0.2",
+    "ethers": "^5.7.1",
+    "evm": "^0.2.0",
+    "node-fetch": "^3.2.10",
+    "telegraf": "^4.10.0",
+    "truncate-middle": "^1.0.6",
+    "web3": "^1.8.0"
+  },
+  "scripts": {
+    "start": "node bot.mjs"
+  }
+}
