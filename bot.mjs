@@ -3,7 +3,7 @@ import pkg from 'evm';
 import Web3 from 'web3';
 
 const { EVM } = pkg;
-const bot = new Telegraf('5533081456:AAF7y_lhUxud4fNyM0xXtrWL2QF5sYGgmd0');
+const bot = new Telegraf('BOT_TOKEN');
 
 bot.on("text", async (ctx) => {
     if(ctx.message.chat.type != 'private')
